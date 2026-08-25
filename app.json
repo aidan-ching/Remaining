@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Remaining",
+    "slug": "remaining",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Remaining to scan food barcodes and nutrition labels."
+        }
+      ],
+      "expo-router"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true
+    }
+  }
+}
